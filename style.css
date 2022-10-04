@@ -1,0 +1,101 @@
+/* Write some CSS below */
+
+a { text-decoration: none;
+	color: ghostwhite;
+
+}
+	
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+h1, h2, h3 {
+  color: #b00b69;
+  font-family: sans-serif;
+}
+
+p {
+  color: #404042;
+  opacity: .7;
+}
+
+.container {
+  width: 1200px;
+  margin: auto;
+}
+
+.banner {
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('images/grenouille.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+  text-align: center;
+}
+
+.banner h1 {
+  color: #b00b69;
+  font-size: 45px;
+  margin: 0;
+}
+
+.banner p {
+  color: white;
+  font-size: 24px;
+}
+
+.button-pink {
+  background-color: #b00b69;
+  color: white;
+  padding: 16px 48px;
+  border-radius: 4px;
+  display: inline-block;
+  text-decoration: none;
+  transition: .3s;
+}
+
+.button-pink:hover {
+	background-color: #fa0f95;
+}
+
+
+.card-white {
+  background: white;
+  box-shadow: 0 0 16px rgba(176,11,105,0.1);
+  border-radius: 4px;
+  width: 200px;
+  text-align: center;
+  padding: 24px;
+  margin: 20px;
+}
+
+.card-white img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.card-white h3 {
+  margin-bottom: 10;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
+  grid-gap: 10px;
+}
+
+.footer {
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('images/a.jpg');
+  background-size: cover;
+  text-align: center;
+  padding: 100px 0;
+
+}
+
+.footer p {
+  color: ghostwhite;
+
+}
